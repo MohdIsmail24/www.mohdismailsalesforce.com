@@ -14,6 +14,6 @@ GitHub Pages-ready Salesforce Admin portfolio.
 - Salesforce evidence screenshots
 
 ## GitHub Pages
-Upload `index.html` to the repository root. The `assets/` folder is included for reusable portfolio images.
+Upload `index.html` to the repository root. The `` folder is included for reusable portfolio images.
 
 The Agentblazer Champion, Innovator and Legend cards are explicitly presented as generic Trailhead references, not personal earned credentials.
