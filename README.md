@@ -1,19 +1,25 @@
-# Mohd Ismail — Salesforce Admin Portfolio V4
+# Mohd Ismail — Salesforce Admin Portfolio
 
-A responsive portfolio built from the supplied Salesforce screenshots and profile image.
+A GitHub Pages-ready Salesforce Admin portfolio combining the strongest parts of two portfolio versions.
 
-## What is included
-- Lead Management case study
-- Opportunity Pipeline case study
+## Primary hands-on Salesforce projects
+- Lead Management & Follow-up
+- Opportunity Pipeline
 - Global Sales Dashboard
-- Big Deals dashboard
-- Sales Rep Win Rate report
-- Agentforce Support FAQ Agent with router, verification, service subagents and escalation
-- Clickable case-study modals with interview talking points
-- Mobile responsive layout
+- Big Deals Dashboard
+- Sales Rep Win Rate
+- Agentforce Support FAQ Agent
 
-## Important credibility note
-The dashboard figures visible in the screenshots are **Developer Edition/demo-org data**. They are presented as visual evidence of configuration and reporting work, not as claimed production business outcomes.
+## Supporting experience
+- Freshdesk Support Workflow Simulation
+- Zendesk Ticketing System Setup
 
-## Publish
-Open `index.html` locally, or upload the folder to GitHub Pages / Netlify / Vercel.
+## Interview-ready design scenarios
+- Lead Routing Automation
+- Multi-Department Security Model
+- Sales Performance Reporting
+
+The portfolio clearly separates hands-on Salesforce evidence, transferable support simulations, and design/interview scenarios. Demo-org numbers are not represented as production business outcomes.
+
+## GitHub Pages
+Upload all files and the `assets` folder to the repository root. Ensure `index.html` is at the repository root, then enable GitHub Pages from `main` / root.
