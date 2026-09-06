@@ -1,19 +1,15 @@
 # Mohd Ismail — Salesforce Admin Lab
 
-GitHub Pages-ready Salesforce Admin portfolio.
+Dark Salesforce Admin portfolio for GitHub Pages.
+
+## Deploy
+1. Upload `index.html` to the repository root.
+2. Enable GitHub Pages from Settings → Pages → Deploy from branch.
+3. Open the generated Pages URL.
 
 ## Included
-- Salesforce Admin case studies
-- Agentforce Support Agent — Tier-1 Ticket Triage
-- Multi-Department Security Model
-- Service Cloud Case Management
-- Agentblazer 2026 generic Trailhead learning-path references
-- Relocation section
-- Interview preparation
-- Trailhead skills and badges
-- Salesforce evidence screenshots
-
-## GitHub Pages
-Upload `index.html` to the repository root. The `` folder is included for reusable portfolio images.
-
-The Agentblazer Champion, Innovator and Legend cards are explicitly presented as generic Trailhead references, not personal earned credentials.
+- Original dark Salesforce Admin Lab theme
+- Profile and dashboard/case-study evidence
+- Learning Journey, Interview Prep, Relocation, About and Trailhead sections
+- Agentblazer 2026 generic Trailhead reference cards
+- Existing Multi-Department Security Model, Agentforce Support Agent and Service Cloud Case Management projects

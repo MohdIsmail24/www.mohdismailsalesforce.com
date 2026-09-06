@@ -243,21 +243,20 @@
   @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} }
 
   /* ---------- Agentblazer 2026 ---------- */
-  .agentblazer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px;}
-  .agentblazer-card{background:linear-gradient(180deg,rgba(19,28,48,.98),rgba(15,23,40,.98));border:1px solid var(--border);border-radius:12px;padding:22px;position:relative;overflow:hidden;}
-  .agentblazer-card:before{content:"";position:absolute;inset:0 auto auto 0;width:100%;height:2px;background:linear-gradient(90deg,#00A1E0,#0176D3,#4DA3FF);opacity:.9;}
-  .ab-badge{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;margin-bottom:16px;background:radial-gradient(circle at 35% 30%,#4DA3FF 0,#0176D3 48%,#07101d 49%,#0b1220 100%);border:2px solid rgba(126,193,255,.55);box-shadow:0 0 0 5px rgba(77,163,255,.08),0 10px 28px rgba(0,0,0,.3);font-family:'IBM Plex Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.04em;text-align:center;color:#fff;}
-  .ab-level{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--teal);letter-spacing:.08em;text-transform:uppercase;margin-bottom:5px;}
-  .ab-title{font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:700;margin-bottom:7px;}
-  .ab-desc{color:var(--muted);font-size:13px;line-height:1.6;margin-bottom:14px;}
-  .ab-link{display:inline-flex;align-items:center;gap:7px;color:var(--heading);font-size:12px;font-family:'IBM Plex Mono',monospace;}
-  .ab-note{margin-top:18px;padding:12px 14px;border:1px dashed var(--border);border-radius:8px;color:var(--muted);font-size:12px;line-height:1.6;background:rgba(6,11,20,.35);}
-  .project-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px;}
-  .project-mini{background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:18px;}
-  .project-mini .mini-tag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--teal);letter-spacing:.08em;text-transform:uppercase;}
-  .project-mini h3{font-family:'Space Grotesk',sans-serif;font-size:17px;margin:7px 0 8px;}
-  .project-mini p{color:var(--muted);font-size:13px;line-height:1.55;}
-  @media(max-width:800px){.agentblazer-grid,.project-strip{grid-template-columns:1fr;}}
+  .agentblazer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  @media (max-width:760px){.agentblazer-grid{grid-template-columns:1fr;}}
+  .agent-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px;transition:transform .2s,border-color .2s,box-shadow .2s;}
+  .agent-card:hover{transform:translateY(-3px);border-color:#3D74C8;box-shadow:0 8px 26px rgba(77,163,255,0.14);}
+  .agent-badge{width:74px;height:74px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:14px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:11px;text-align:center;line-height:1.1;color:#0B1220;border:3px solid rgba(255,255,255,.18);box-shadow:0 5px 18px rgba(0,0,0,.25);}
+  .agent-champion{background:linear-gradient(145deg,#F6D98B,#B97A20);}
+  .agent-innovator{background:linear-gradient(145deg,#9DD7FF,#2D75C9);}
+  .agent-legend{background:linear-gradient(145deg,#D8DDE8,#737F95);}
+  .agent-card h3{font-family:'Space Grotesk',sans-serif;color:var(--heading);font-size:17px;margin-bottom:6px;}
+  .agent-card p{font-size:12px;color:var(--muted);margin-bottom:12px;}
+  .agent-card ul{padding-left:18px;list-style:disc;font-size:12px;color:#C9D3E0;margin-bottom:14px;}
+  .agent-card li{margin-bottom:5px;}
+  .agent-link{display:inline-block;font-size:11px;color:var(--teal);font-family:'IBM Plex Mono',monospace;}
+  .agent-note{margin-top:14px;padding:11px 13px;border:1px solid var(--border);border-radius:8px;background:var(--surface-2);font-size:11px;color:var(--muted);}
 
 </style>
 </head>
@@ -276,9 +275,8 @@
       <a href="#home">Home</a>
       <a href="#journey">Learning Journey</a>
       <a href="#cases">Case Studies</a>
-      <a href="#prep">Interview Prep</a>
       <a href="#agentblazer">Agentblazer</a>
-      <a href="#project-map">Projects</a>
+      <a href="#prep">Interview Prep</a>
       <a href="#about">About</a>
     </div>
   </div>
@@ -359,6 +357,41 @@
         </table>
       </div>
     </div>
+  </div>
+</section>
+
+
+<section class="section" id="agentblazer">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-eyebrow">Trailhead · 2026 Learning Path</div>
+      <h2>Agentblazer 2026</h2>
+      <p>Generic Trailhead reference badges for the three 2026 Agentblazer levels — included as learning-path references, not as a claim of earned status.</p>
+    </div>
+    <div class="agentblazer-grid">
+      <div class="agent-card">
+        <div class="agent-badge agent-champion">AGENTBLAZER<br>CHAMPION<br>2026</div>
+        <h3>🏅 Champion 2026</h3>
+        <p>Foundation level for understanding Agentforce and building a basic agent.</p>
+        <ul><li>AI &amp; Agentforce fundamentals</li><li>Prompt Builder basics</li><li>Build a basic agent</li></ul>
+        <a class="agent-link" href="https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-champion-2026" target="_blank" rel="noopener">View Trailhead ↗</a>
+      </div>
+      <div class="agent-card">
+        <div class="agent-badge agent-innovator">AGENTBLAZER<br>INNOVATOR<br>2026</div>
+        <h3>⚡ Innovator 2026</h3>
+        <p>Builder level focused on implementing trusted Agentforce solutions.</p>
+        <ul><li>Sales &amp; Service agents</li><li>Prompt Builder &amp; deployment</li><li>AI strategy and use cases</li></ul>
+        <a class="agent-link" href="https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-innovator-2026" target="_blank" rel="noopener">View Trailhead ↗</a>
+      </div>
+      <div class="agent-card">
+        <div class="agent-badge agent-legend">AGENTBLAZER<br>LEGEND<br>2026</div>
+        <h3>🌟 Legend 2026</h3>
+        <p>Advanced level covering agent lifecycle, data, testing and development tools.</p>
+        <ul><li>Advanced agent customization</li><li>Data 360, testing &amp; monitoring</li><li>Agentforce tools and Slack</li></ul>
+        <a class="agent-link" href="https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-legend-2026" target="_blank" rel="noopener">View Trailhead ↗</a>
+      </div>
+    </div>
+    <div class="agent-note">☁️ Source: Salesforce Trailhead Agentblazer 2026. This portfolio uses generic visual references so the site does not misrepresent a personal Agentblazer status unless verified on the Trailblazer profile.</div>
   </div>
 </section>
 
@@ -470,7 +503,7 @@
           <div class="case-title">Multi-Department Security Model</div>
           <div class="case-sub">Profiles · Permission Sets · Role Hierarchy</div>
         </div>
-        <span class="badge build">🛠️ Design Scenario</span>
+        <span class="badge build">🛠️ Planned</span>
       </div>
       <div class="tab-nav"><button class="tab-btn active" data-tab="overview">Overview</button><button class="tab-btn" data-tab="built">What Was Built</button><button class="tab-btn" data-tab="skills">Skills</button><button class="tab-btn" data-tab="testing">Testing & Screenshots</button></div>
       
@@ -501,7 +534,7 @@
           <div class="case-title">Service Cloud Case Management</div>
           <div class="case-sub">Case Object · Omni-Channel Routing · Escalation Rules</div>
         </div>
-        <span class="badge build">🛠️ Design Scenario</span>
+        <span class="badge build">🛠️ Planned</span>
       </div>
       <div class="tab-nav"><button class="tab-btn active" data-tab="overview">Overview</button><button class="tab-btn" data-tab="built">What Was Built</button><button class="tab-btn" data-tab="skills">Skills</button><button class="tab-btn" data-tab="testing">Testing & Screenshots</button></div>
       
@@ -558,22 +591,6 @@
     
 
   </div>
-
-</section>
-
-<section class="section" id="project-map">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="section-eyebrow">ADMIN + SERVICE</div>
-      <h2>Additional project scenarios</h2>
-      <p>Three interview-ready Salesforce scenarios covering security, Agentforce service operations and Service Cloud case management.</p>
-    </div>
-    <div class="project-strip">
-      <article class="project-mini"><div class="mini-tag">Security · Design Scenario</div><h3>Multi-Department Security Model</h3><p>Profiles, permission sets, role hierarchy, sharing strategy and field-level security for Sales, Support and Finance.</p></article>
-      <article class="project-mini"><div class="mini-tag">Agentforce · Service</div><h3>Agentforce Support Agent — Tier-1 Ticket Triage</h3><p>Router, verification, FAQ, case management and escalation patterns for first-line customer support.</p></article>
-      <article class="project-mini"><div class="mini-tag">Service Cloud · Design Scenario</div><h3>Service Cloud Case Management</h3><p>Case lifecycle, queues, Omni-Channel routing, escalation rules and SLA-focused support operations.</p></article>
-    </div>
-  </div>
 </section>
 
 <section class="section" id="prep">
@@ -610,41 +627,6 @@
       <div class="prep-q">How do you decide between Org-Wide Default of Private vs. Public Read Only?</div>
       <div class="prep-q">What's the difference between a Role Hierarchy and a Sharing Rule, and when would you need both?</div>
     </div>
-  </div>
-</section>
-
-
-<section class="section" id="agentblazer">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="section-eyebrow">AI + AGENTFORCE</div>
-      <h2>Agentblazer 2026 Learning Path</h2>
-      <p>Generic Salesforce Trailhead reference badges for the 2026 Agentblazer journey. These are shown as learning-path references, not as personal earned credentials.</p>
-    </div>
-    <div class="agentblazer-grid">
-      <article class="agentblazer-card">
-        <div class="ab-badge">CHAMPION<br>2026</div>
-        <div class="ab-level">Level 01 · Foundation</div>
-        <div class="ab-title">Agentblazer Champion</div>
-        <div class="ab-desc">Core AI concepts, Agentforce fundamentals, Prompt Builder and building a basic agent.</div>
-        <a class="ab-link" href="https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-champion-2026" target="_blank" rel="noopener">View official Trailhead path ↗</a>
-      </article>
-      <article class="agentblazer-card">
-        <div class="ab-badge">INNOVATOR<br>2026</div>
-        <div class="ab-level">Level 02 · Builder</div>
-        <div class="ab-title">Agentblazer Innovator</div>
-        <div class="ab-desc">AI strategy, Prompt Builder, Agentforce customization and deployment across business use cases.</div>
-        <a class="ab-link" href="https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-innovator-2026" target="_blank" rel="noopener">View official Trailhead path ↗</a>
-      </article>
-      <article class="agentblazer-card">
-        <div class="ab-badge">LEGEND<br>2026</div>
-        <div class="ab-level">Level 03 · Advanced</div>
-        <div class="ab-title">Agentblazer Legend</div>
-        <div class="ab-desc">Advanced agent customization, Data 360, testing, monitoring, Slack deployment and Agentforce tools.</div>
-        <a class="ab-link" href="https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-legend-2026" target="_blank" rel="noopener">View official Trailhead path ↗</a>
-      </article>
-    </div>
-    <div class="ab-note"><strong>Portfolio note:</strong> The three cards above are generic 2026 Trailhead references. They do not claim that Mohd Ismail has earned these Agentblazer statuses unless verified through his personal Trailhead profile.</div>
   </div>
 </section>
 
