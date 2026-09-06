@@ -1,19 +1,25 @@
-# Mohd Ismail — Salesforce Admin Lab
+# Mohd Ismail — Salesforce Admin Portfolio
 
-GitHub Pages-ready Salesforce Admin portfolio.
+A GitHub Pages-ready Salesforce Admin portfolio combining the strongest parts of two portfolio versions.
 
-## Included
-- Salesforce Admin case studies
-- Agentforce Support Agent — Tier-1 Ticket Triage
+## Primary hands-on Salesforce projects
+- Lead Management & Follow-up
+- Opportunity Pipeline
+- Global Sales Dashboard
+- Big Deals Dashboard
+- Sales Rep Win Rate
+- Agentforce Support FAQ Agent
+
+## Supporting experience
+- Freshdesk Support Workflow Simulation
+- Zendesk Ticketing System Setup
+
+## Interview-ready design scenarios
+- Lead Routing Automation
 - Multi-Department Security Model
-- Service Cloud Case Management
-- Agentblazer 2026 generic Trailhead learning-path references
-- Relocation section
-- Interview preparation
-- Trailhead skills and badges
-- Salesforce evidence screenshots
+- Sales Performance Reporting
+
+The portfolio clearly separates hands-on Salesforce evidence, transferable support simulations, and design/interview scenarios. Demo-org numbers are not represented as production business outcomes.
 
 ## GitHub Pages
-Upload `index.html` to the repository root. The `` folder is included for reusable portfolio images.
-
-The Agentblazer Champion, Innovator and Legend cards are explicitly presented as generic Trailhead references, not personal earned credentials.
+Upload all files and the `assets` folder to the repository root. Ensure `index.html` is at the repository root, then enable GitHub Pages from `main` / root.
